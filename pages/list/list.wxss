@@ -1,0 +1,14 @@
+.stories{
+  display: flex;
+}
+.story{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20rpx; */
+  font-size: 32rpx;
+  padding: 0 40rpx;
+  height: 120rpx;
+  background-color: #f7f7f7;
+  border-bottom: 1px #dddddd solid;
+}

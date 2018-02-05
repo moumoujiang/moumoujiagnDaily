@@ -1,0 +1,3 @@
+<!--detail.wxml-->
+<image wx:if="{{src}}" src='{{src}}' mode='scaleToFill'  class='img'></image>
+<view wx:for="{{detail}}" class='detail_p'>{{item}}</view>

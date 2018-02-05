@@ -1,0 +1,10 @@
+<!--theme.wxml-->
+<view class='theme_box'>
+  <view wx:for="{{theme}}" class='theme' bindtap='theme' data-id='{{item.id}}'>
+    <image src='{{item.thumbnail}}'mode='scaleToFill'  class='img'></image>
+    <view class="theme_text">
+      <view class="theme_name">{{item.name}}</view>
+      <view class="description">{{item.description}}</view>
+    </view>
+  </view>
+</view>

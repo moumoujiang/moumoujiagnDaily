@@ -1,0 +1,11 @@
+.img{
+  width: 100%;
+}
+.detail_p{
+  font-family: '微软雅黑';
+  padding: 0 20rpx;
+  line-height: 40rpx;
+  text-indent: 56rpx;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}

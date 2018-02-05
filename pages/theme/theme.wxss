@@ -1,0 +1,23 @@
+.theme_box{
+  background-color: #f7f7f7;
+}
+.theme{
+  margin-bottom: 40rpx;
+  background-color: #fff;
+}
+.img{
+  width: 100%;
+}
+.theme_text{
+  margin: 20rpx 0;
+  padding: 0 20rpx;
+  font-family: '微软雅黑'
+}
+.theme_name{
+  font-family: '微软雅黑'
+}
+.description{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  padding-bottom: 30rpx;
+}

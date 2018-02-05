@@ -1,0 +1,6 @@
+<!--list.wxml-->
+<view wx:for="{{stories}}" data-id='{{item.id}}' class='stories' bindtap='story'>
+  <view class='story'>
+    {{index+1}}、{{item.title}}
+  </view>
+</view>

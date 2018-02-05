@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class='container'>
+   <swiper indicator-dots="true"
+  autoplay="true" interval="4000" duration="1000">
+  <block wx:for="{{banner}}">
+    <swiper-item>
+      <image src="{{item.image}}" mode="scaleToFill" class="slide-image"  bindtap='detail' data-id='{{item.id}}'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="news_wrap">
+  <view wx:for="{{list}}" class='news_box' bindtap='detail' data-id='{{item.id}}'>
+      <view class="img">
+        <image src="{{item.images[0]}}"></image>
+      </view>
+      <view class="news_title">{{item.title}}</view>
+      
+  </view>
+  
+</view>
+<view class='btn'>
+  <button type="primary" loading="{{loading}}" size="default" class="more" bindtap='more'> 更多 </button>
+</view>
+ 
